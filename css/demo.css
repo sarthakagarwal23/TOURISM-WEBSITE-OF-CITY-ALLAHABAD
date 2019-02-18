@@ -1,0 +1,99 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6{ 
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: sans-serif;
+	background: #000;
+	font-weight: 100;
+	font-size: 15px;
+	color: #aa3e03;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+}
+.bg-purple{
+    background-color:#6b5b95;
+
+}
+.navbar-brand{
+   font-size:18px;
+   padding: 2px 6px 2px 6px;
+   color:#ffdd99; 
+    border: 1px solid #ffdd99;/* GOLDEN WALA*/
+}
+.nav-link{
+    font-weight:600 ;
+    font-size:15px;
+    color:#ffffff;
+}
+.navbar .nav-item a:hover{
+    background-color:#ffffff;
+    color:#6b5b95;/*PURPLE*/
+}
+.navbar a:hover{
+    
+    background-color:#ffdd99;
+    color:#6b5b95;
+    border:1px solid #6b5b95;
+
+}
+#shraddha{
+	
+}
+
+#triph1{
+	color:#6666ff ;
+	font-size:25;
+	font-weight:300;
+
+}
+.bg{
+
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1531157638195-659e72dd2730?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc99209dec1176f753e40c3ca91e9269&auto=format&fit=crop&w=750&q=80");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.icon-bar {
+    width: 45px;
+    background-color: #555;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 150px; /* Position the navbar at the top of the page */
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 31px;
+}
+
+.icon-bar a:hover {
+    background-color: #ffdd99;/*GOLDEN COLOR WALA*/
+}
+
+.active {
+    background-color: #6b5b95;/*purple colour*/
+}
+#tanya{
+	position: fixed;
+	bottom: 0;
+	background:#6b5b95 ;
+	margin: auto 0 auto 0 ;
+	height: 30px;
+	 color:#ffffff;
+	padding-left:5%;
+	padding-right: 43%;
+	
+}

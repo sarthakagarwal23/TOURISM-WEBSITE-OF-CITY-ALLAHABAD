@@ -1,0 +1,159 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-color: #e0ccff;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-purple{
+    background-color:#6b5b95;
+
+}
+.navbar-brand{
+   font-size:18px;
+   padding: 2px 6px 2px 6px;
+   color:#ffdd99; 
+    border: 1px solid #ffdd99;/* GOLDEN WALA*/
+}
+.nav-link{
+    font-weight:600 ;
+    font-size:15px;
+    color:#ffffff;
+}
+.navbar .nav-item a:hover{
+    background-color:#ffffff;
+    color:#6b5b95;/*PURPLE*/
+}
+.navbar a:hover{
+    
+    background-color:#ffdd99;
+    color:#6b5b95;
+    border:1px solid #6b5b95;
+
+}
+
+.container{
+    margin-left:50px;
+    margin-right:90px;
+    margin-top: 55px;
+}
+
+/*ICON BAR STARTS................*/
+.container{
+    margin-left:5%;
+ 
+}
+.icon-bar {
+    width: 45px;
+    background-color: #555;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 150px; /* Position the navbar at the top of the page */
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 31px;
+}
+
+.icon-bar a:hover {
+    background-color: #ffdd99;/*GOLDEN COLOR WALA*/
+}
+
+.active {
+    background-color: #6b5b95;/*PURPLE COLOUR*/
+}
+/*ICON BAR WAL SECTION ENDS */
+/*SIDE NAV BAR BEGINS*/
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 0; /* STACK ORDER OF AN ELEMENT*/
+    top: 1;
+    right:0;
+    background-color: #555;/*LIGTH BLACK GREY WALA COLOUR*/
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:600;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color:#ffdd99;
+    color:#000000;
+}
+
+/*SIDE NAVBAR ENDS*/
+
+#tanya{
+    
+    bottom: 0;
+    background:#6b5b95 ;
+    margin: 2px 0px 0px 0px ;
+    height: 30px;
+     color:#ffffff;
+    padding-left:5%;
+    padding-right: 45%;
+    
+}
+.carousel {
+    height:70%; 
+    width:70%;
+    margin:5px auto auto auto;
+}
+.bg-gold{
+    background-color:#ffeecc;
+}
+
+
+.dev{
+    border:2px solid #6b5b95;
+    width: 59%;
+    margin-right: 1%;
+    height: 100%;
+   }
+.shikhar{
+ border:2px solid #6b5b95;
+    width: 38%;
+    margin-right: 2%;
+}
+.photo{
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+
+}
+.bg-rang{
+    background-color: #f2f2f2;
+}
+.aman1{
+border:2px solid #6b5b95;
+    width: 75%;
+    margin-right: 1%;
+    height: 100%;
+}
+.aman2{
+     border:2px solid #6b5b95;
+    width: 22%;
+    margin-right: 2%;
+}

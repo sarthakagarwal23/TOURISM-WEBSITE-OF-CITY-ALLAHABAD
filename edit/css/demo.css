@@ -1,0 +1,105 @@
+@import url('normalize.css');
+/* General Demo Style */
+html{
+	height: 100%;
+}
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+.no-cssanimations .rw-wrapper .rw-sentence span:first-child{
+				opacity: 1;
+			}
+
+.bg-purple{
+    background-color:#6b5b95;
+
+}
+.navbar-brand{
+   font-size:18px;
+   padding: 2px 6px 2px 6px;
+   color:#ffdd99; 
+    border: 1px solid #ffdd99;/* GOLDEN WALA*/
+}
+.nav-link{
+    font-weight:600 ;
+    font-size:15px;
+    color:#ffffff;
+}
+.navbar .nav-item a:hover{
+    background-color:#ffffff;
+    color:#6b5b95;/*PURPLE*/
+}
+.navbar a:hover{
+    
+    background-color:#ffdd99;
+    color:#6b5b95;
+    border:1px solid #6b5b95;
+
+}
+.icon-bar {
+    width: 45px;
+    background-color: #555;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 150px; /* Position the navbar at the top of the page */
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 31px;
+}
+
+.icon-bar a:hover {
+    background-color: #ffdd99;/*GOLDEN COLOR WALA*/
+}
+
+.active {
+    background-color: #6b5b95;/*purple colour*/
+}
+
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 0; /* STACK ORDER OF AN ELEMENT*/
+    top: 1;
+    right:0;
+    background-color: #555;/*LIGTH BLACK GREY WALA COLOUR*/
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:600;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color:#ffdd99;
+    color:#000000;
+}
+
+
+
+.rw-sentence-IE{
+	display: none;
+	padding: 30px;
+}
